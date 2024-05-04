@@ -1,30 +1,45 @@
+.portfolio{
+    background-color: black;
+    color: white;
+}
+
+.container-fluid span{
+    color: white;
+}
+
 .container h6{
     color: #ffbd39;
+    font-size: 50px;
+}
+
+.name{
+    margin-top: 90px;
+    margin-left: 50px;
+}
+
+.name h1{
+    font-size: 40px;
 }
 
 .container i{
     color: #ffbd39;
+    font-size: 60px;
 }
-
-.content{
-    display: inline-flex;
-  
-} 
 
 .content .list{
     margin-left: 5px;
-    line-height: 80px;
-    height: 100px;
+    height: 90px;
+    line-height:90px;
     overflow: hidden;
 }
+
 .list li{
-    color: white;
     list-style: none;
     font-size: 60px;
     font-weight: 500;
     position: relative;
     top: 0;
-    animation: slide 6s steps(6) infinite;
+    animation: slide 6s steps(4) infinite;
 
 }
 
@@ -34,32 +49,56 @@
     }
 }
 
-
 .list li span{
     position: relative;
 }
+
 .list li span::after{
-    content: " ";
+    content: "";
     position: absolute;
     left: 0;
     height: 100%;
     width: 100%;
-    background: rgba(white, .55);
-    border-left: 2px solid rgb(213, 64, 64);
+    background: black;
+    border-left: 2px solid black;
     animation: typing 1.5s steps(10) infinite;
 }
-
-@keyframes typing{
+/* rgba(white, .55) */
+@keyframes typing {
     100%{
         left: 100%;
         margin: 0 -35px 0 35px;
     }
 }
 
+.content h5{
+    font-size: 30px;
+    font-weight: 500;
+    margin-top: 10px;
+    margin-left: 40px;
+}
 
-.image img{
+.content button{
+    margin-top: 10px;
+    margin-left: 40px;
+    padding: 10px 20px;
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 20px;
+    border: 1px solid white;
+}
+   
+.content img{
+    margin-top: 100px;
+    margin-left: 600px;
     width: 500px;
     height: 500px;
     border-radius: 50%;
     border: 10px solid white;
+}
+
+.container h1{
+    text-shadow: -10px 20px rgb(153, 145, 145);
+    margin-bottom: 50px;
+
 }
