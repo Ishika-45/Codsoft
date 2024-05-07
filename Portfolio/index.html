@@ -20,10 +20,10 @@
           <span class="navbar-brand mb-0 h1">Ishika Bansal</span>
             <ul class="nav nav-pills justify-content-end ">
               <li class="nav-item">
-                <a class="btn btn-outline-warning " aria-current="page" href="#">Home</a>
+                <a class="btn btn-outline-warning " aria-current="page" href="#Home-section">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-light" href="#">About</a>
+                <a class="nav-link text-light" href="#About-section">About</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link text-light" href="#">Resume</a>
@@ -39,8 +39,10 @@
       </nav>
   </div>
   <!---------------------- End --------------------------->
+
+  <!---------------------Home-Section -------------------->
   <div class="container">
-    <div class="home">
+    <div class="home" id="Home-section">
       <div class="intro">
         <div class="name">
           <h6>Hello !!</h6>
@@ -55,7 +57,7 @@ Bansal</h1></pre></b></i>
             <li><span>Web Developer</span></li>
           </ul>
           <button type="button" class="btn btn-warning">See my Resume</button>
-          <button type="button" class="btn btn-outline-light">My Works</button>
+          <button type="button" class="btn btn-outline-light"><a href="https://github.com/Ishika-45">My Works</a> </button>
         </div>    
       </div>
     <div class="image">
@@ -65,26 +67,101 @@ Bansal</h1></pre></b></i>
     </div>
   </div>
 </div>
-      <div class="about my-3">
-        
-        <h1>About Me</h1>
-        <p>Detail-oriented and highly motivated Computer Science and Engineering student with a passion for leveraging
-          technology to solve complex problems and drive innovation. Possessing a solid foundation in programming, software
-          development, and with a keen interest in emerging technologies such as artificial intelligence and web development.
-          Proven ability to collaborate effectively in team environments, communicate technical concepts clearly, and adapt to
-          new challenges. Committed to continuous learning and professional growth in the rapidly evolving field of computer
-          science. Seeking opportunities to apply academic knowledge and practical skills to contribute to meaningful projects and
-          make a positive impact in the tech industry</p>
-          <pre>
-               <b>Profile:</b>       Web Developer
-               <b>Domain:</b>       Web Development, Ecommerce, BFSI & Digital Marketing
-               <b>Education:</b>     Bachelor of Technology
-               <b>Language:</b>      English, Hindi
-               <b>BI Tools:</b>      Microsoft Power BI, Looker & Tableau
-               <b>Other Skills:</b>  Cloud, PySpark, Excel, Git, JIRA, Google Analytics & SEO
-               <b>Interest:</b>      Traveling,</pre>
+<!-------------------- End of Home Section ------------------------>
+
+      <!-------------------------------------- About-section ------------------------------->
+      <div class="container my-5" id="About-section">
+        <div class="row">
+          <div class="row d-flex align-items-stretch">
+          <!-- <div class="row d-flex"> -->
+            <div class="col-md-6 col-lg-5 d-flex">
+              <div class="img-about img d-flex align-items-stretch">
+                <div class="overlay">
+                  <div class="row">
+                    <div class="col-sm-6 col-md-5">
+                      <div class="about-img">
+                      <img src="ISHI.jpg" class="img-fluid rounded b-shadow-a" alt="">
+                      </div>
+                    </div>
+                    <!-- Details next to profile image -->
+                    <div class="col-sm-6 col-md-7 my-3">
+                      <div class="about-info">
+                      <p><span class="title-s">Name: </span> <span>Ishika Bansal</span></p>
+                      <p><span class="title-s">Job Role: </span> <span>Web Developer</span></p>
+                      <p><span class="title-s">Experience: </span> <span>Intern</span></p>
+                      <p><span class="title-s">Address: </span> <span>Himachal Pradesh, India</span></p>
+                      </div>
+                    </div>
+                    </div>
+  
+                  <div class="skill-mf my-5">
+                    <p class="title-s">Skills</p>
+                    <span>SQL</span> <span class="pull-right">75%</span>
+                    <div class="progress">
+                      <div class="progress-bar" role="progressbar" style="width: 75%;" aria-valuenow="75" aria-valuemin="0"
+                        aria-valuemax="100"></div>
+                    </div>
+                    
+                    <span>PYTHON</span> <span class="pull-right">65%</span>
+                    <div class="progress">
+                      <div class="progress-bar" role="progressbar" style="width: 65%" aria-valuenow="65" aria-valuemin="0"
+                        aria-valuemax="100"></div>
+                    </div>
+                    
+                    <span>JavaScript</span> <span class="pull-right">50%</span>
+                    <div class="progress">
+                      <div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0"
+                        aria-valuemax="100"></div>
+                    </div>
+                    
+                    <span>Java</span> <span class="pull-right">50%</span>
+                    <div class="progress">
+                      <div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0"
+                        aria-valuemax="100"></div>
+                    </div>
+                    
+                    <span>React</span> <span class="pull-right">25%</span>
+                    <div class="progress">
+                      <div class="progress-bar" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0"
+                        aria-valuemax="100"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            <div class="col-md-6 col-lg-7 pl-lg-5 pb-5">
+              <div class="row justify-content-start pb-3">
+                <div class="col-md-12 heading-section ftco-animate">
+                  
+                  
+                  <h1 class="mb-4" id="shadow">About Me</h1>
+                  
+                  <p>Detail-oriented and highly motivated Computer Science and Engineering student with a passion for leveraging
+                    technology to solve complex problems and drive innovation. Possessing a solid foundation in programming, software
+                    development, and with a keen interest in emerging technologies such as artificial intelligence and web development.
+                    Proven ability to collaborate effectively in team environments, communicate technical concepts clearly, and adapt to
+                    new challenges. Committed to continuous learning and professional growth in the rapidly evolving field of computer
+                    science. Seeking opportunities to apply academic knowledge and practical skills to contribute to meaningful projects and
+                    make a positive impact in the tech industry.</p>
+                </div>
+              </div>
+  
+  
+              <div class="projects d-flex mt-md-3 ">
+                <div class="text">
+                  <p class="mb-4">
+                    <span>5+ Projects completed</span>
+                  </p>
+                  <button type="button" class="btn btn-warning"><a href="https://www.linkedin.com/in/ishika-bansal-3443a4250?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">LinkedIn</a> </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-    
+<!----------------------------------- End of About Section ---------------------------->
+  
     
 </body>
 

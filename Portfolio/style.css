@@ -2,20 +2,15 @@
     background-color: black;
     color: white;
 }
-
 .container-fluid span{
     color: white;
 }
 
 .name h6{
     color: #ffbd39;
-    font-size: 50px;
+    font-size: 20px;
 }
 
-.name{
-    margin-top: 90px;
-    margin-left: 50px;
-}
 
 .name h1{
     font-size: 40px;
@@ -23,7 +18,7 @@
 
 .name i{
     color: #ffbd39;
-    font-size: 60px;
+    font-size: 50px;
 }
 
 .content .list{
@@ -35,7 +30,7 @@
 
 .list li{
     list-style: none;
-    font-size: 60px;
+    font-size: 50px;
     font-weight: 500;
     position: relative;
     top: 0;
@@ -67,25 +62,27 @@
 @keyframes typing {
     100%{
         left: 100%;
-        margin: 0 -35px 0 35px;
+        margin: 0 -10px 0 10px;
     }
 }
 
-.content h5{
-    font-size: 30px;
-    font-weight: 500;
-    margin-top: 10px;
-    margin-left: 40px;
-}
 
 .content button{
-    margin-top: 10px;
-    margin-left: 40px;
     padding: 10px 20px;
     font-size: 15px;
     font-weight: 500;
     border-radius: 20px;
     border: 1px solid white;
+}
+
+.content button a{
+    text-decoration: none;
+    color: white;
+}
+
+.content button a:hover{
+    text-decoration: none;
+    color: black;
 }
 .pic{
     width: 500px;
@@ -107,13 +104,37 @@
     margin-top: 100px;
     margin-left: 100px;
 }
-.about h1{
-    text-shadow: -10px 20px rgb(153, 145, 145);
-    margin-bottom: 50px;
 
-}
 .home{
     /* margin-top: 100px;
     margin-left: 100px; */
     display: flex;
+}
+
+#shadow{
+    text-shadow: -10px 20px rgb(153, 145, 145);
+    margin-bottom: 70px;
+}
+
+.title-s{
+    font-weight: bold;
+    
+}
+
+.about-img{
+    border-radius: 50%;
+    border: 5px solid white;
+    object-fit: cover;
+    overflow: hidden;
+}
+.text button {
+    padding: 10px 20px;
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 20px;
+    border: 1px solid white;
+}
+.text button a{
+    text-decoration: none;
+    color:black;
 }
