@@ -138,3 +138,102 @@
     text-decoration: none;
     color:black;
 }
+
+#resume-section h1{
+    font-size: 90px;
+    font-weight: bold;
+    margin-top: 100px;
+    margin-left: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-shadow: -10px 20px rgb(153, 145, 145);
+    margin-bottom: 70px;
+}
+
+#resume-section pre{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+#resume-section h2{
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+}
+#resume-section hr{
+    color:#ffbd39;
+    
+}
+.experience .row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30px;
+
+}
+
+.achievement .row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.column-1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.1);
+    border: 2px solid #ffbd39;
+}
+
+.column-1 h4{
+    color: #ffbd39;
+}
+
+.project .row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30px;
+}
+.column-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.1);
+    border: 2px solid #ffbd39;
+
+}
+
+.column-2 h4{
+    color: #ffbd39;
+}
+
+.column-3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    background: rgba(255, 255, 255, 0.1);
+    border: 2px solid #ffbd39;
+}
+
+.column-3 h4{
+    color: #ffbd39;
+}
+
+#Project-section h1{
+    font-size: 90px;
+    font-weight: bold;
+    margin-top: 100px;
+    margin-left: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-shadow: -10px 20px rgb(153, 145, 145);
+    margin-bottom: 70px;
+}
