@@ -112,7 +112,7 @@
 }
 
 #shadow{
-    text-shadow: -10px 20px rgb(153, 145, 145);
+    text-shadow: -10px 30px rgb(153, 145, 145);
     margin-bottom: 70px;
 }
 
@@ -147,7 +147,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    text-shadow: -10px 20px rgb(153, 145, 145);
+    text-shadow: -10px 40px rgb(153, 145, 145);
     margin-bottom: 70px;
 }
 
@@ -194,12 +194,43 @@
     color: #ffbd39;
 }
 
-.project .row{
+.Education .row{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
     margin-top: 30px;
+
+}
+
+.resume button{
+    margin-top: 50px;
+    margin-left: 450px;
+    padding: 10px 20px;
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 20px;
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+.resume button a{
+    text-decoration: none;
+    color: white;
+}
+
+.resume button a:hover{
+    text-decoration: none;
+    color: black;
+}
+
+
+.project .row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 5px;
 }
 .column-2{
     display: flex;
@@ -234,6 +265,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    text-shadow: -10px 20px rgb(153, 145, 145);
+    text-shadow: -10px 40px rgb(153, 145, 145);
     margin-bottom: 70px;
 }
+
+
