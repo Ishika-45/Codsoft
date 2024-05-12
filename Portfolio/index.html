@@ -14,30 +14,21 @@
 
 <body class="portfolio">
   <!------------------------ Navbar ------------------------->
-  <div class="container my-3">
-    <nav class="navbar border-bottom border-body">
-      <div class="container-fluid">
-        <span class="navbar-brand mb-0 h1">Ishika Bansal</span>
-        <ul class="nav nav-pills justify-content-end ">
-          <li class="nav-item">
-            <a class="btn btn-outline-warning " aria-current="page" href="#Home-section">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-light" href="#About-section">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-light" href="#resume-section">Resume</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-light" href="#Project-section">Projects</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-light" href="#contact-section">Contact</a>
-          </li>
-        </ul>
-      </div>
+  <input type="checkbox" id="check">
+  <header >
+    <h2 class="logo">Ishika Bansal</h2>
+    <nav class="navigation">
+      <a href="#Home-section" class="active">Home</a>
+      <a href="#About-section">About</a>
+      <a href="#resume-section">Resume</a>
+      <a href="#Project-section">Project</a>
+      <a href="#contact-section">Contact</a>
     </nav>
-  </div>
+    <label for="check">
+      <i class="fas fa-bars menu-btn"></i>
+      <i class="fas fa-times close-btn"></i>
+    </label>
+  </header>
   <!---------------------- End --------------------------->
 
   <!---------------------Home-Section -------------------->
@@ -90,7 +81,7 @@ Bansal</h1></pre></b></i>
                   <div class="about-info">
                     <p><span class="title-s">Name: </span> <span>Ishika Bansal</span></p>
                     <p><span class="title-s">Job Role: </span> <span>Web Developer</span></p>
-                    <p><span class="title-s">Experience: </span> <span>Intern</span></p>
+                    <p><span class="title-s">Experience: </span> <span>Intermediate Level</span></p>
                     <p><span class="title-s">Address: </span> <span>Himachal Pradesh, India</span></p>
                   </div>
                 </div>
@@ -158,7 +149,7 @@ Bansal</h1></pre></b></i>
               <p class="mb-4">
                 <span>5+ Projects completed</span>
               </p>
-              <button type="button" class="btn btn-warning"><a
+              <button type="button" class="linked"><a
                   href="/Portfolio/">LinkedIn</a>
               </button>
             </div>
@@ -248,7 +239,8 @@ Also a core member of Robotronics Club and interested in Web development and AI/
         </div>
       </div>
       <!-- End of Education -->
-      <button type="button" class="btn btn-outline-warning"><a href="/">Download CV</a>
+      <div class="down"><button type="button" class="btn btn-outline-warning"><a href="/">Download CV</a></div>
+      
     </div>
     
   </div>
@@ -272,7 +264,7 @@ Also a core member of Robotronics Club and interested in Web development and AI/
             which make them easy to examine. It was our project in Smart India Hackathon'23.
           </p>
         </div>
-        <div class="column-3 col-md-6 col-lg-5">
+        <div class="column-3 col-md-8 col-lg-5">
           <h4>CureCrafter</h4>
           <p>CureCrafter is a simple but effective AI chatbot which provide home remedies for common ailments,I made
             the
@@ -289,15 +281,14 @@ Also a core member of Robotronics Club and interested in Web development and AI/
   <!------------------------------ End of Project Section ------------------------------->
   <div class="container">
     <div class="contact" id="contact-section">
-      <h1>Contact</h1>
+      <div id="head"><h1>Contact</h1></div>
       <p>Below are the details to reach out to me!!</p>
       <!-------------------------------- Buttons ---------------------------->
       <div class="button">
-        <a href="/"><i class="fa-solid fa-location-dot"></i></a>
-        <a href="/"><i class="fa-solid fa-phone"></i></a>
-        <a href="/"><i class="fa-solid fa-envelope"></i></a>
-        <a href="/"><i class="fa-brands fa-github"></i></a>
-        <a href="/"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="/"><i class="fa-solid fa-phone fa-lg"></i></a>
+        <a href="/"><i class="fa-solid fa-envelope fa-xl"></i></a>
+        <a href="/"><i class="fa-brands fa-github fa-xl"></i></a>
+        <a href="/"><i class="fa-brands fa-linkedin fa-xl"></i></a>
     </div>
   </div>
   </div>
