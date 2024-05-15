@@ -13,3 +13,43 @@ body {
     align-items: center;
     background: linear-gradient(30deg ,#151515,rgb(58, 58, 58));
 }
+.calculator{
+    padding:25px;
+    border-radius: 16px;
+    border: 1px solid #fff;
+    background: transparent;
+    box-shadow: 2px 4px 20px rgba(255,255,255,0.5);
+}
+input{
+    width:350px;
+    border:none;
+    padding: 20px;
+    font-size: 40px;
+    font-weight: 500;
+    margin:10px;
+    background:transparent;
+    box-shadow: 2px 4px 20px rgba(85,85,85,0.9);
+    text-align: right;
+    cursor: pointer;
+    color: #fff;
+}
+
+input::placeholder{
+    color:#ffffff;
+}
+button{
+    width:70px;
+    height: 70px;
+    margin:10px;
+    border:none;
+    background: transparent;
+    border-radius: 50%;
+    box-shadow: -8px -8px 20px rgba(85,85,85,0.9);
+    color:#fff;
+    font-size: 25px;
+    font-weight: 600;
+    cursor:pointer;
+}
+.equal{
+    background: rgba(228, 111, 2, 0.9);
+}
